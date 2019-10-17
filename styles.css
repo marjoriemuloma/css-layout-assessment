@@ -74,7 +74,9 @@ article{
     float: right;
     width: 25%;
     
-}aside ul{
+}
+
+aside ul{
     display: grid;
     grid-template-columns: 145px 145px;
     grid-gap: 1px;
