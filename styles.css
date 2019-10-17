@@ -8,6 +8,8 @@ body {
 img {
     max-width: 100%;
     display: block;
+    float: left;
+    padding 0%;
 }
 
 .logo {
@@ -48,9 +50,33 @@ nav a {
 .photos {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0;float: right;
+    width: 50%;
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 100px 100px;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+
 }
 
 .feature {
     width: 200px;
 }
+
+article{
+    float: left;
+    width: 75%;
+    
+}
+
+.photos{
+    float: right;
+    width: 25%;
+    
+}aside ul{
+    display: grid;
+    grid-template-columns: 145px 145px;
+    grid-gap: 1px;
+}
+
